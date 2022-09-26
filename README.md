@@ -1,2 +1,2 @@
 # Branch_predictor
-Branch_predictor
+In this project you will find some branch predictors using a trace file. The predictors I programmed were: bimodal, gshare, pshared and tournamente. If you are working with Linux OS you can type make on terminal and thats all. If not, so if wanna see bimodal's results you need to type: python3 ./branch_predictor --bp 0 -s 8 -gh 6. In case of gshare: python3 ./branch_predictor --bp 1 -s 12 --gh 6. In case of pshared: python3 ./branch_predictor --bp 2 -s 8 --lh 12 and finally, tournamente predictor: python3 ./branch_predictor.py --bp 3 -s 12 --gh 6 --lh 12. So, you now can see all results and compare each other :).
